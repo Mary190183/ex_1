@@ -4,100 +4,123 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="Мария, 39, русская">
-    <meta name="discription" content="Это анкета Марии Петровской">
-    <title>Mary's anket</title>
+    <meta name="keywords" content="Мария">
+    <meta name="discription" content="Инженер">
+  <link rel="stylesheet" href="style.css">
+    <title>Information card</title>
 </head>
 <body>
+   <div class="country">
+   <div>
+      <img src="jpg_giv/flag.jpg" alt="flag" class="flag">
+      </div>
+  <div>
+   <a href="#" target="_blank">Ru</a>
+</div>
+</div>
+<div class="conteiner">
+<div class="info">
+<div class="info-text">
+<p>
+Здравствуйте, я живу в Санкт-Петербурге и работаю инженером.
+<br>
+Меня зовут <em><strong>Мария Александровна Петровская.</strong></em>
+<br>
+Это мой сын, Петровский Глеб.
+ </p>
+ <div class="soc">
+   <h3>Список социальных сетей</h3> 
+   
+   <a href="https://www.instagram.com/invites/contact/?i=1ifljqcz43vpl&utm_content=1txg7sb" target="_blank">Instagram</a>
+  |
+   <a href="https://www.pinterest.ru/mashazemljanika/?invite_code=ea4e70f5faa640c885259aeca8c9bb64&sender=649644452406659321" target="_blank">Pinterest</a>
+  |
+   <a href="https://t.me/mashazemljanika" target="_blank">Telegram</a>
   
- <p> Здравствуйте, <strong>я русская </strong>   
-    и живу в Санкт-Петербурге.</p>
+  </div>
+</div>
+<div>
+<img src="jpg_giv/avatar.jpg" alt="My son" class="avatar">
+</div>
+</div>
 
 
 
- <p> Сейчас <strong> <em> мне 39 лет </em></strong>
-    и я работаю инженером.</p>
-
-
- 
- <em> Меня зовут Мария </em> Александровна Петровская.Это мой сын Петровский Глеб.</p>
- <img src="jpg_giv/avatar.jpg" width="150" alt="My son">
-
-
- <h4>Список социальных сетей</h4> 
- <a href="https://vk.com/id398250" target="_blank">VK</a>
-|
- <a href="https://www.pinterest.ru/mashazemljanika/?invite_code=ea4e70f5faa640c885259aeca8c9bb64&sender=649644452406659321" target="_blank">Pinterest</a>
-|
- <a href="https://join.skype.com/invite/MKbqKcQGGQYW" target="_blank">Skype</a>
-
-  <h5>Мои хобби</h5>
-<ol>
+<div class="conteiner1">
+<div class="card bg-green">
+  <h3 class="h3">Мои хобби</h3>
+<ol class="list">
    <li>Рисование</li>
    <li>Путешествия</li>
    <li>Книги</li>
    <li>Шитье</li>
 </ol>
- 
- <h6>Опыт работы</h6> 
- <table border="1">
-    <thead>
+</div>
+<div class="card bg-blue">
+ <h3 class="h3">Опыт работы</h3> 
+ <table class="table">
+    <!-- <thead>
     <th>Название</th>
     <th>Должность</th>
     <th>Год</th>
    </thead>
-   <tbody>
+   <tbody> -->
+      
 <tr>
    <td>Инженер</td>
-   <td>Аврора</td>
-   <td>2005-2006</td>
+      <td>2005 - 2006</td>
 </tr>
 <tr>
    <td>Инженер 3-й категории</td>
-   <td>Аврора</td>
-   <td>2006-2012</td>
+    <td>2006 - 2012</td>
 </tr>
 <tr>
    <td>Инженер 2-й категории</td>
-   <td>Аврора</td>
-   <td>2012-2019</td>
+   <td>2012 - 2019</td>
 </tr>
 <tr>
    <td>Инженер 1-й категории</td>
-   <td>Аврора</td>
-   <td>2019-сейчас</td>
+   <td>2019 - сейчас</td>
 </tr>
    </tbody>
  </table>
-<hr>
-<h1> <p>
-Lorem, <strong> ipsum dolor sit amet consectetur 
-</strong>adipisicing elit. Sapiente illum, 
-ratione perspiciatis deserunt voluptas quaerat culpa 
-aliquid nulla reiciendis vero.
-</h1>
-<h3>Lorem 
-<br> dolor, sit amet consectetur adipisicing elit. 
-Est quasi possimus pariatur mollitia beatae modi, maxime 
-debitis maiores iste blanditiis.</h3>
-<h1>Связаться со мной</h1>
-<form action="">
+</div>
+</div>
+<!-- <hr color="green"> -->
+
+<div class="card bg-yellow">
+
+<form action="/" class="form">
+   <div class="icons">
 <div>
-   <label for="name">Ваше имя</label>
-  <input type="text" id="name" placeholder="Введите свое имя">
-  </div>
+   <video src="jpg_giv/omlet.MP4" class="omlet" autoplay loop></video>
+</div>
 <div>
+   <img src="jpg_giv/letter.jpg" alt="letter" class="letter">
+   </div>
+</div>
+   <h1>Связаться со мной</h1>
+   <div class="form-row">
+<div class="form-group">
+<label for="name">Ваше имя</label>
+<input type="text" id="name" placeholder="Введите свое имя">
+</div>
+<div class="form-group">
 <label for="email">Ваш Email</label>
 <input type="email" id="email" placeholder="Введите свой Email" >
 </div>
-<div>
-   <br>
+</div>
+<div class="form-group">
+
 <label for="Massage">Ваше сообщение</label>
-<br>
+
 <textarea id="Massage" cols="20" rows="5" placeholder="Введите свое сообщение..."></textarea>
 
 </div>
-<button type="submit">Отправить форму</button>
+
+<button class="btn" type="submit">Отправить форму</button>
 </form>
+</div>
+</div>
 </body>
 </html>

@@ -1,0 +1,265 @@
+
+@import url(@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Square+Peg&display=swap');
+/* не получилось сделать шрифт от руки */
+/* не получилось сделать так, чтобы все блоки цветные были разной высоты, даже те, которые в ряд */
+/* при выставлении в размер сайт глючит */
+body {
+    font-family: 'Square Peg', sans-serif;
+    font-size: 16px;
+    font-weight: lighter;
+    font-style: inherit;
+    background: #fff;
+    color: 0f141e;
+}
+
+
+.country {
+   max-width: 750px;
+    margin: auto;
+    /* padding-top: 10px; */
+    display: flex;
+
+}
+.flag {
+    width: 30px;  
+    margin-left: 700px; c
+    padding: 0px;
+    
+}
+/* @media (max-width: 650px) {
+    .country {
+    display: block;
+    text-align: right;}
+    .country .flag {
+        margin-left: 0px;
+    }
+    } */
+a {
+    color: #86898f;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+    
+}
+a:active {
+    color: rgb(101, 101, 185);
+    ]}
+    /* a:visited
+    {
+        color: grey;
+    } */
+
+
+.conteiner {
+    max-width: 750px;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.info {
+    margin-bottom: 20px;
+    display: flex;
+    color: #86898f
+}
+.info-text {
+    background-color: #ffe5e5;
+    margin-right: 20px;
+    margin-left: 20px;
+    box-shadow: 4px 4px rgba(0, 0, 0, .25);
+    padding: 20px;
+    text-align: center;
+}
+
+    
+}
+
+.info-text p {
+    font-style: normal;
+    font-weight: bold;
+    
+    margin: 20px;
+    text-align: center;
+
+}
+
+.avatar {
+    width: 200px;
+    box-shadow: 4px 4px rgba(0, 0, 0, .25);
+}
+
+.soc {
+    text-align: center;  
+}
+.soc h3 {
+    /* margin-bottom: 10px ; */
+    color: #fff
+    }
+
+ /* @media (max-width: 650px) {
+      .info {display: block;
+        text-align: center;
+ } */
+
+ .conteiner1 {
+    max-width: 750px;
+    padding-top: 30px;
+    margin: auto;
+    display: flex;
+}
+/* 
+.card {
+  
+    background: #fff;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+}
+.card h2 {
+    margin-bottom: 10px;
+} */
+
+.bg-green {
+    background: #e5ffe7;
+    box-shadow: 4px 4px rgba(0, 0, 0, .25);
+    margin-right: 100px;
+    margin-left: 50px;
+}
+.bg-green h3 {
+    color: #86898f;
+    text-align: center;
+}
+
+.bg-blue {
+    background: #e5f5ff;
+    box-shadow: 4px 4px rgba(0, 0, 0, .25);
+    /* padding: 25px; */
+}
+.bg-blue h3 {
+    color: #86898f;
+    text-align: center;
+}
+
+
+.list {
+    /* list-style: none; */
+    padding: 0 20px;
+}
+.list li {
+    color: #86898f;
+    margin-bottom: 10px;
+    border-bottom: 5px;
+}
+.list li:hover {
+    background: #aac4ac;
+}
+.table {
+    width: 105%;
+    padding: 20px;
+}
+.table td {
+    padding-bottom: 10px;
+   
+    margin-right: 10;
+    
+}
+.table td:hover {
+    background: #eeefff;
+  }
+.table td:nth-child(2) {
+color: #86898f;
+}
+.table td:last-child {
+    margin-right: 0;
+    }
+
+/* @media (max-width: 650px) { 
+    .conteiner1 {
+        display: block;
+    }
+} */
+
+
+.bg-yellow {
+    background: #fff9dc;
+    box-shadow: 4px 4px rgba(0, 0, 0, .25);
+    width: 500px;
+    margin-top: 20px;
+    margin-left: 100px;
+    padding: 0;
+}
+
+.form {
+        text-align: center;
+        padding: 25px;
+}
+
+.icons {
+    display: flex;
+    
+}
+.omlet {
+    width: 150px;
+    border-radius: 48%;
+    margin-right: 200px;
+}
+.letter {
+ width: 100px;   
+}
+.form h1 {
+    color: #86898f;
+}
+.form-row {
+margin-bottom: 10px;
+display: flex;
+}
+.form-row .form-group {
+    /* display: inline-block; */
+    margin-right: 20px;
+    width: 50%;
+}
+.form-row .form-group {
+    margin-right: 10px;
+}
+.form-group:last-child {
+    margin-right: 0;
+}
+/* @media (max-width: 650px) {
+    .form-row {
+        display: block; }
+        .form-row .form-group {
+            width: 100%;
+        }
+    }
+} */
+
+.form-group label {
+    display: block;
+    font-size: 14px;
+    color: #86898f;
+    }
+
+.form-group input, textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    font-family: inherit;
+    color: #86898f;
+}
+.btn {
+    background: #fff;
+    padding: 15px 20px;
+    color: #86898f;
+    border: white;
+    font-family: inherit;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+    
+}
+.btn:hover {
+    opacity: 0.8;
+}
+/* @media (max-width: 650px) {
+    .icons {
+        display: inline-block;
+    }} */
